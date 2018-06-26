@@ -7,7 +7,8 @@
     "rube-tools": "./bin/rube-tools.js"
   },
   "scripts": {
-    "release": "bash ./scripts/release/publish.sh"
+    "release": "bash ./scripts/release/publish.sh",
+    "test": "node ./bin/rube-tools.js run dist"
   },
   "files": [
     "bin",
@@ -27,5 +28,8 @@
   "dependencies": {
     "colorful": "^2.1.0",
     "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
   }
 }
