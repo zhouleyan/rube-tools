@@ -1,14 +1,13 @@
 {
   "name": "rube-tools",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "tools for rube-ui",
   "main": "index.js",
   "bin": {
     "rube-tools": "./bin/rube-tools.js"
   },
   "scripts": {
-    "release": "bash ./scripts/release/publish.sh",
-    "test": "node ./bin/rube-tools.js run dist"
+    "release": "bash ./scripts/release/publish.sh"
   },
   "files": [
     "bin",
@@ -26,10 +25,41 @@
   },
   "homepage": "https://github.com/zhouleyan/rube-tools#readme",
   "dependencies": {
+    "autoprefixer": "^8.6.3",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "~6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
     "colorful": "^2.1.0",
-    "commander": "^2.15.1"
+    "commander": "^2.15.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-strip-code": "^0.1.4",
+    "gulp-typescript": "^3.1.6",
+    "less": "^3.0.4",
+    "less-plugin-npm-import": "^2.1.0",
+    "merge2": "^1.2.2",
+    "minimist": "^1.2.0",
+    "object-assign": "^4.1.1",
+    "postcss": "^6.0.12",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-loader": "^2.1.5",
+    "rimraf": "^2.6.2",
+    "rucksack-css": "^1.0.2",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "typescript": "^2.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^2.2.1"
   }
 }
