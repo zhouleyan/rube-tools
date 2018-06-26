@@ -1,0 +1,31 @@
+{
+  "name": "rube-tools",
+  "version": "0.0.4",
+  "description": "tools for rube-ui",
+  "main": "index.js",
+  "bin": {
+    "rube-tools": "./bin/rube-tools.js"
+  },
+  "scripts": {
+    "release": "bash ./scripts/release/publish.sh"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/zhouleyan/rube-tools.git"
+  },
+  "keywords": [],
+  "author": "zly750@qq.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zhouleyan/rube-tools/issues"
+  },
+  "homepage": "https://github.com/zhouleyan/rube-tools#readme",
+  "dependencies": {
+    "colorful": "^2.1.0",
+    "commander": "^2.15.1"
+  }
+}
