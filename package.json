@@ -1,6 +1,6 @@
 {
   "name": "rube-tools",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "tools for rube-ui",
   "main": "index.js",
   "bin": {
@@ -59,7 +59,8 @@
     "postcss-loader": "^2.1.5",
     "rimraf": "^2.6.2",
     "rucksack-css": "^1.0.2",
-    "through2": "^2.0.3"
+    "through2": "^2.0.3",
+    "ts-loader": "^3.0.3"
   },
   "devDependencies": {
     "typescript": "^2.2.1",
