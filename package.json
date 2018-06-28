@@ -1,6 +1,6 @@
 {
   "name": "rube-tools",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "tools for rube-ui",
   "main": "index.js",
   "bin": {
